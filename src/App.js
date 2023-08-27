@@ -5,6 +5,7 @@ import Products from './pages/products/Products';
 import Users from './pages/users/Users';
 import Layout from './pages/layout/Layout';
 import NotFound from './pages/notfound/NotFound';
+import Login from './pages/login/Login';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
             <Route path='users' element={<Users />} />
             <Route path="*" element={<NotFound />} />
           </Route>
-          
+          <Route path='login' element={<Login />} />
         </Routes>
       </Router>
     </div>

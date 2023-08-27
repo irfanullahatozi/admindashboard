@@ -3,7 +3,8 @@ import './footer.scss'
 const Footer = () => {
   return (
     <div className='footer'>
-      footer
+      <span>CodeTune</span>
+      <span>&copy; CodeTune Admin DashBoard</span>
     </div>
   )
 }
